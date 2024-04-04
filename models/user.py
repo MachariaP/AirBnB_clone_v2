@@ -6,8 +6,7 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from models.place import Place
 from models.review import Review
-from os import getenv
-import hashlib
+
 
 class User(BaseModel, Base):
     """This is the class for user
@@ -26,12 +25,3 @@ class User(BaseModel, Base):
                           backref="user")
     reviews = relationship("Review", cascade='all, delete, delete-orphan',
                            backref="user")
-
-    @property
-    def password(self):
-        return self._password
-
-    @password.setter
-    def password(self, pwd):
-        """hashing password values"""
-        self._password = pwd
