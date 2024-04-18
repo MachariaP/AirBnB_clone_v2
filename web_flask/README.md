@@ -831,7 +831,6 @@ guillaume@ubuntu:~$
 ```
 
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/9a7ae8155274b17881442200437e8793cf08de48.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240418%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240418T135036Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=17c87c278b3d3ff74cfc7355778a8651dc102ff1dd9757a9932d82a33c207cd8)
-
 **Repo:**
 
 -   GitHub repository:  `AirBnB_clone_v2`
