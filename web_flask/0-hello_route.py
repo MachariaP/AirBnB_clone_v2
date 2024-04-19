@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 @app.route("/", strict_slashes=False)
-def hello_hbnb():
+def index():
     """ Display a message """
     return "Hello HBNB!"
 
